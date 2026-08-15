@@ -7,7 +7,7 @@ plugins {
 android {
     namespace = "com.example.loud_voice_chat"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = 21
+    ndkVersion = flutter.ndkVersion
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
